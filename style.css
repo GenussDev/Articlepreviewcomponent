@@ -1,0 +1,70 @@
+body{
+    background-color: salmon;
+}
+ 
+.article {
+    position: absolute;
+    font-size: 20px;
+    width: 40%;
+    padding: 30px;
+    
+    
+}
+
+.preview{
+    background-color: white;
+    position: absolute;
+    top: 200px;
+    right: 150px; 
+    left: 150px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    border: 1px red ;
+    border-radius: 30px;   
+}
+
+.image {
+    position: absolute;
+    left: 0px; 
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.profil{
+    position: relative;
+    display: flex;
+}
+
+#share{
+    position: absolute;
+    left: 80%;
+    bottom: 25%;
+    
+    
+}
+
+.avatar {
+    position: relative;
+    border-radius: 50%;
+    top: 20px;
+    padding-right: 20px;
+ 
+}
+
+li {
+    position: relative;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#popup{
+    position: absolute;
+    bottom: 35%;
+    left: 55%;
+    border: solid 2px #5488b8;
+    border-radius: 30px;
+    width: 280px;
+    background-color: #5488b8;
+}
+
