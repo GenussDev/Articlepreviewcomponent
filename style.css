@@ -1,5 +1,5 @@
 body{
-    background-color: salmon;
+    background-color: rgb(216, 98, 84);
 }
  
 .article {
@@ -68,3 +68,10 @@ li {
     background-color: #5488b8;
 }
 
+.cache{
+    display: none;
+}
+
+.show{
+    display: block;
+}
